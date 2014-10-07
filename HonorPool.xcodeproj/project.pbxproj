@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5624D3319E343CC00487185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3219E343CC00487185 /* AppDelegate.swift */; };
+		B5624D3519E343CC00487185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3419E343CC00487185 /* ViewController.swift */; };
+		B5624D3819E343CC00487185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3619E343CC00487185 /* Main.storyboard */; };
+		B5624D3A19E343CC00487185 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3919E343CC00487185 /* Images.xcassets */; };
+		B5624D3D19E343CC00487185 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3B19E343CC00487185 /* LaunchScreen.xib */; };
+		B5624D6519E3442400487185 /* SwiftestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D6419E3442400487185 /* SwiftestController.swift */; };
+		B5624D6719E3442400487185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D6619E3442400487185 /* AppDelegate.swift */; };
+		B5624D6A19E3442400487185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5624D6819E3442400487185 /* Main.storyboard */; };
+		B5624D7219E3447B00487185 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7119E3447B00487185 /* Game.swift */; };
+		B5624D7319E3447B00487185 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7119E3447B00487185 /* Game.swift */; };
+		B5624D7519E344CA00487185 /* GameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7419E344CA00487185 /* GameSpec.swift */; };
+		B5624D7719E344F100487185 /* IntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7619E344F100487185 /* IntegrationSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5624D4319E343CC00487185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5624D2519E343CB00487185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5624D2C19E343CB00487185;
+			remoteInfo = HonorPool;
+		};
+		B5624D5719E3441000487185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 953F36F819758D1700718CF1;
+			remoteInfo = Swiftest;
+		};
+		B5624D5919E3441000487185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 956FD60619820D5700699AD8;
+			remoteInfo = SwiftestSpecs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5624D2D19E343CC00487185 /* HonorPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5624D3119E343CC00487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5624D3219E343CC00487185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5624D3419E343CC00487185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5624D3719E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5624D3919E343CC00487185 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5624D3C19E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5624D4219E343CC00487185 /* HonorPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonorPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5624D5219E3441000487185 /* Swiftest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swiftest.xcodeproj; path = Swiftest/src/Swiftest/Swiftest.xcodeproj; sourceTree = "<group>"; };
+		B5624D5F19E3442400487185 /* HonorPoolSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPoolSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5624D6219E3442400487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5624D6419E3442400487185 /* SwiftestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftestController.swift; path = Support/SwiftestController.swift; sourceTree = "<group>"; };
+		B5624D6619E3442400487185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Support/AppDelegate.swift; sourceTree = "<group>"; };
+		B5624D6919E3442400487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5624D7119E3447B00487185 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B5624D7419E344CA00487185 /* GameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSpec.swift; sourceTree = "<group>"; };
+		B5624D7619E344F100487185 /* IntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationSpec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5624D2A19E343CB00487185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D3F19E343CC00487185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D5C19E3442400487185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5624D2419E343CB00487185 = {
+			isa = PBXGroup;
+			children = (
+				B5624D5219E3441000487185 /* Swiftest.xcodeproj */,
+				B5624D2F19E343CC00487185 /* HonorPool */,
+				B5624D6019E3442400487185 /* HonorPoolSpecs */,
+				B5624D2E19E343CC00487185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5624D2E19E343CC00487185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D2D19E343CC00487185 /* HonorPool.app */,
+				B5624D4219E343CC00487185 /* HonorPoolTests.xctest */,
+				B5624D5F19E3442400487185 /* HonorPoolSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5624D2F19E343CC00487185 /* HonorPool */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D3219E343CC00487185 /* AppDelegate.swift */,
+				B5624D3419E343CC00487185 /* ViewController.swift */,
+				B5624D3619E343CC00487185 /* Main.storyboard */,
+				B5624D3919E343CC00487185 /* Images.xcassets */,
+				B5624D3B19E343CC00487185 /* LaunchScreen.xib */,
+				B5624D3019E343CC00487185 /* Supporting Files */,
+				B5624D7119E3447B00487185 /* Game.swift */,
+			);
+			path = HonorPool;
+			sourceTree = "<group>";
+		};
+		B5624D3019E343CC00487185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D3119E343CC00487185 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5624D5319E3441000487185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D5819E3441000487185 /* Swiftest.framework */,
+				B5624D5A19E3441000487185 /* SwiftestSpecs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5624D6019E3442400487185 /* HonorPoolSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D6319E3442400487185 /* Support */,
+				B5624D6119E3442400487185 /* Supporting Files */,
+				B5624D7419E344CA00487185 /* GameSpec.swift */,
+				B5624D7619E344F100487185 /* IntegrationSpec.swift */,
+			);
+			path = HonorPoolSpecs;
+			sourceTree = "<group>";
+		};
+		B5624D6119E3442400487185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D6219E3442400487185 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5624D6319E3442400487185 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D6419E3442400487185 /* SwiftestController.swift */,
+				B5624D6619E3442400487185 /* AppDelegate.swift */,
+				B5624D6819E3442400487185 /* Main.storyboard */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5624D2C19E343CB00487185 /* HonorPool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5624D4C19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPool" */;
+			buildPhases = (
+				B5624D2919E343CB00487185 /* Sources */,
+				B5624D2A19E343CB00487185 /* Frameworks */,
+				B5624D2B19E343CB00487185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonorPool;
+			productName = HonorPool;
+			productReference = B5624D2D19E343CC00487185 /* HonorPool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5624D4119E343CC00487185 /* HonorPoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5624D4F19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */;
+			buildPhases = (
+				B5624D3E19E343CC00487185 /* Sources */,
+				B5624D3F19E343CC00487185 /* Frameworks */,
+				B5624D4019E343CC00487185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5624D4419E343CC00487185 /* PBXTargetDependency */,
+			);
+			name = HonorPoolTests;
+			productName = HonorPoolTests;
+			productReference = B5624D4219E343CC00487185 /* HonorPoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5624D5E19E3442400487185 /* HonorPoolSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5624D6D19E3442400487185 /* Build configuration list for PBXNativeTarget "HonorPoolSpecs" */;
+			buildPhases = (
+				B5624D5B19E3442400487185 /* Sources */,
+				B5624D5C19E3442400487185 /* Frameworks */,
+				B5624D5D19E3442400487185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonorPoolSpecs;
+			productName = HonorPoolSpecs;
+			productReference = B5624D5F19E3442400487185 /* HonorPoolSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5624D2519E343CB00487185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "8th Light";
+				TargetAttributes = {
+					B5624D2C19E343CB00487185 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B5624D4119E343CC00487185 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B5624D2C19E343CB00487185;
+					};
+					B5624D5E19E3442400487185 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B5624D2819E343CB00487185 /* Build configuration list for PBXProject "HonorPool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5624D2419E343CB00487185;
+			productRefGroup = B5624D2E19E343CC00487185 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5624D5319E3441000487185 /* Products */;
+					ProjectRef = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B5624D2C19E343CB00487185 /* HonorPool */,
+				B5624D4119E343CC00487185 /* HonorPoolTests */,
+				B5624D5E19E3442400487185 /* HonorPoolSpecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5624D5819E3441000487185 /* Swiftest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swiftest.framework;
+			remoteRef = B5624D5719E3441000487185 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5624D5A19E3441000487185 /* SwiftestSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SwiftestSpecs;
+			remoteRef = B5624D5919E3441000487185 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5624D2B19E343CB00487185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5624D3819E343CC00487185 /* Main.storyboard in Resources */,
+				B5624D3D19E343CC00487185 /* LaunchScreen.xib in Resources */,
+				B5624D3A19E343CC00487185 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D4019E343CC00487185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D5D19E3442400487185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5624D6A19E3442400487185 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5624D2919E343CB00487185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5624D3519E343CC00487185 /* ViewController.swift in Sources */,
+				B5624D7219E3447B00487185 /* Game.swift in Sources */,
+				B5624D3319E343CC00487185 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D3E19E343CC00487185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5624D5B19E3442400487185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5624D6719E3442400487185 /* AppDelegate.swift in Sources */,
+				B5624D7319E3447B00487185 /* Game.swift in Sources */,
+				B5624D7719E344F100487185 /* IntegrationSpec.swift in Sources */,
+				B5624D7519E344CA00487185 /* GameSpec.swift in Sources */,
+				B5624D6519E3442400487185 /* SwiftestController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5624D4419E343CC00487185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5624D2C19E343CB00487185 /* HonorPool */;
+			targetProxy = B5624D4319E343CC00487185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5624D3619E343CC00487185 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5624D3719E343CC00487185 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5624D3B19E343CC00487185 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5624D3C19E343CC00487185 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B5624D6819E3442400487185 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5624D6919E3442400487185 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5624D4A19E343CC00487185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5624D4B19E343CC00487185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5624D4D19E343CC00487185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonorPool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5624D4E19E343CC00487185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonorPool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5624D5019E343CC00487185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonorPoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
+			};
+			name = Debug;
+		};
+		B5624D5119E343CC00487185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonorPoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
+			};
+			name = Release;
+		};
+		B5624D6E19E3442400487185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonorPoolSpecs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5624D6F19E3442400487185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HonorPoolSpecs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5624D2819E343CB00487185 /* Build configuration list for PBXProject "HonorPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5624D4A19E343CC00487185 /* Debug */,
+				B5624D4B19E343CC00487185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5624D4C19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5624D4D19E343CC00487185 /* Debug */,
+				B5624D4E19E343CC00487185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5624D4F19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5624D5019E343CC00487185 /* Debug */,
+				B5624D5119E343CC00487185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5624D6D19E3442400487185 /* Build configuration list for PBXNativeTarget "HonorPoolSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5624D6E19E3442400487185 /* Debug */,
+				B5624D6F19E3442400487185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5624D2519E343CB00487185 /* Project object */;
+}
