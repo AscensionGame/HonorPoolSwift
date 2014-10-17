@@ -1,28 +1,28 @@
 class Game {
     var honorPool = 60
-    var players: [Int] = [0, 0]
+    var players: [Player] = [Player(), Player()]
     let SCORE = "score"
     
-    func incrementScore(playerNumber: Int) {
+    func incrementScore(#playerNumber: Int) {
         var index = playerNumber - 1
         if honorPool > 0 {
             honorPool--
         }
-        players[index]++
+        players[index].incrementScore()
     }
     
-    func decrementScore(playerNumber: Int) {
+    func decrementScore(#playerNumber: Int) {
         var index = playerNumber - 1
-        if players[index] > 0 {
-            if (players[0] + players[1]) <= 60 {
+        if players[index].getScore() > 0 {
+            if (players[0].getScore() + players[1].getScore()) <= 60 {
                 honorPool++
             }
-            players[index]--
+            players[index].decrementScore()
         }
     }
-    
-    func player(playerNumber: Int) -> Dictionary<String, Int> {
-        var score = players[playerNumber - 1]
-        return [SCORE: score]
+
+    func getScore(#playerNumber: Int) -> Int {
+        var playerIndex = playerNumber - 1
+        return players[playerIndex].getScore()
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52F9CAB19F1B31E0032E981 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAA19F1B31E0032E981 /* Player.swift */; };
+		B52F9CAC19F1B31E0032E981 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAA19F1B31E0032E981 /* Player.swift */; };
+		B52F9CAE19F1B3420032E981 /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */; };
 		B5624D3319E343CC00487185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3219E343CC00487185 /* AppDelegate.swift */; };
 		B5624D3519E343CC00487185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3419E343CC00487185 /* ViewController.swift */; };
 		B5624D3819E343CC00487185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3619E343CC00487185 /* Main.storyboard */; };
@@ -46,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B52F9CAA19F1B31E0032E981 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpec.swift; sourceTree = "<group>"; };
 		B5624D2D19E343CC00487185 /* HonorPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5624D3119E343CC00487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5624D3219E343CC00487185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +116,7 @@
 				B5624D3B19E343CC00487185 /* LaunchScreen.xib */,
 				B5624D3019E343CC00487185 /* Supporting Files */,
 				B5624D7119E3447B00487185 /* Game.swift */,
+				B52F9CAA19F1B31E0032E981 /* Player.swift */,
 			);
 			path = HonorPool;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 				B5624D6119E3442400487185 /* Supporting Files */,
 				B5624D7419E344CA00487185 /* GameSpec.swift */,
 				B5624D7619E344F100487185 /* IntegrationSpec.swift */,
+				B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */,
 			);
 			path = HonorPoolSpecs;
 			sourceTree = "<group>";
@@ -284,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52F9CAB19F1B31E0032E981 /* Player.swift in Sources */,
 				B5624D3519E343CC00487185 /* ViewController.swift in Sources */,
 				B5624D7219E3447B00487185 /* Game.swift in Sources */,
 				B5624D3319E343CC00487185 /* AppDelegate.swift in Sources */,
@@ -298,7 +306,9 @@
 				B5624D7319E3447B00487185 /* Game.swift in Sources */,
 				B5624D7719E344F100487185 /* IntegrationSpec.swift in Sources */,
 				B5624D7519E344CA00487185 /* GameSpec.swift in Sources */,
+				B52F9CAC19F1B31E0032E981 /* Player.swift in Sources */,
 				B5624D6519E3442400487185 /* SwiftestController.swift in Sources */,
+				B52F9CAE19F1B3420032E981 /* PlayerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
