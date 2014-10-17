@@ -22,12 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5624D4319E343CC00487185 /* PBXContainerItemProxy */ = {
+		B52F9CA819F1ADA90032E981 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5624D2519E343CB00487185 /* Project object */;
+			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = B5624D2C19E343CB00487185;
-			remoteInfo = HonorPool;
+			remoteGlobalIDString = 953F36F719758D1700718CF1;
+			remoteInfo = Swiftest;
 		};
 		B5624D5719E3441000487185 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,7 +53,6 @@
 		B5624D3719E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5624D3919E343CC00487185 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5624D3C19E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B5624D4219E343CC00487185 /* HonorPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonorPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5624D5219E3441000487185 /* Swiftest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swiftest.xcodeproj; path = Swiftest/src/Swiftest/Swiftest.xcodeproj; sourceTree = "<group>"; };
 		B5624D5F19E3442400487185 /* HonorPoolSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPoolSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5624D6219E3442400487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,13 +66,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		B5624D2A19E343CB00487185 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5624D3F19E343CC00487185 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				B5624D2D19E343CC00487185 /* HonorPool.app */,
-				B5624D4219E343CC00487185 /* HonorPoolTests.xctest */,
 				B5624D5F19E3442400487185 /* HonorPoolSpecs.app */,
 			);
 			name = Products;
@@ -190,24 +181,6 @@
 			productReference = B5624D2D19E343CC00487185 /* HonorPool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5624D4119E343CC00487185 /* HonorPoolTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5624D4F19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */;
-			buildPhases = (
-				B5624D3E19E343CC00487185 /* Sources */,
-				B5624D3F19E343CC00487185 /* Frameworks */,
-				B5624D4019E343CC00487185 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5624D4419E343CC00487185 /* PBXTargetDependency */,
-			);
-			name = HonorPoolTests;
-			productName = HonorPoolTests;
-			productReference = B5624D4219E343CC00487185 /* HonorPoolTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		B5624D5E19E3442400487185 /* HonorPoolSpecs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5624D6D19E3442400487185 /* Build configuration list for PBXNativeTarget "HonorPoolSpecs" */;
@@ -219,6 +192,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B52F9CA919F1ADA90032E981 /* PBXTargetDependency */,
 			);
 			name = HonorPoolSpecs;
 			productName = HonorPoolSpecs;
@@ -236,10 +210,6 @@
 				TargetAttributes = {
 					B5624D2C19E343CB00487185 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					B5624D4119E343CC00487185 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = B5624D2C19E343CB00487185;
 					};
 					B5624D5E19E3442400487185 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -266,7 +236,6 @@
 			projectRoot = "";
 			targets = (
 				B5624D2C19E343CB00487185 /* HonorPool */,
-				B5624D4119E343CC00487185 /* HonorPoolTests */,
 				B5624D5E19E3442400487185 /* HonorPoolSpecs */,
 			);
 		};
@@ -300,13 +269,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5624D4019E343CC00487185 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5624D5D19E3442400487185 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,13 +290,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5624D3E19E343CC00487185 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5624D5B19E3442400487185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,10 +305,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5624D4419E343CC00487185 /* PBXTargetDependency */ = {
+		B52F9CA919F1ADA90032E981 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5624D2C19E343CB00487185 /* HonorPool */;
-			targetProxy = B5624D4319E343CC00487185 /* PBXContainerItemProxy */;
+			name = Swiftest;
+			targetProxy = B52F9CA819F1ADA90032E981 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,40 +439,6 @@
 			};
 			name = Release;
 		};
-		B5624D5019E343CC00487185 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HonorPoolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
-			};
-			name = Debug;
-		};
-		B5624D5119E343CC00487185 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HonorPoolTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
-			};
-			name = Release;
-		};
 		B5624D6E19E3442400487185 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -561,15 +482,6 @@
 			buildConfigurations = (
 				B5624D4D19E343CC00487185 /* Debug */,
 				B5624D4E19E343CC00487185 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5624D4F19E343CC00487185 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5624D5019E343CC00487185 /* Debug */,
-				B5624D5119E343CC00487185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
