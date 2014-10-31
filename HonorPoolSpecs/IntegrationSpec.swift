@@ -88,6 +88,48 @@ class IntegrationSpec : SwiftestSuite {
                 expect(game.honorPool).to(.Equal(58))
                 expect(game.getScore(playerNumber: 2)).to(.Equal(1))
             }
+            
+            it("adds points back to pool when subtracted from player") {
+                let game = Game()
+                expect(game.honorPool).to(.Equal(60))
+                game.incrementScore(playerNumber: 1)
+                game.decrementScore(playerNumber: 1)
+                expect(game.getScore(playerNumber: 1)).to(.Equal(0))
+                expect(game.honorPool).to(.Equal(60))
+                expect(game.getScore(playerNumber: 2)).to(.Equal(0))
+            }
+            
+            it("caps honor pool at 60 points") {
+                let game = Game()
+                expect(game.honorPool).to(.Equal(60))
+                game.decrementScore(playerNumber: 1)
+                expect(game.honorPool).to(.Equal(60))
+                expect(game.getScore(playerNumber: 1)).to(.Equal(0))
+                expect(game.getScore(playerNumber: 2)).to(.Equal(0))
+            }
+
+            it("doesn't subtract more than 60 points from honor pool and doesn't add back to honor pool if outstanding points exceeds honor pool capacity") {
+                let game = Game()
+                for var i = 0; i < 25; i++ {
+                    game.incrementScore(playerNumber: 1)
+                }
+                for var i = 0; i < 45; i++ {
+                    game.incrementScore(playerNumber: 2)
+                }
+                expect(game.honorPool).to(.Equal(0))
+                expect(game.getScore(playerNumber: 1)).to(.Equal(25))
+                expect(game.getScore(playerNumber: 2)).to(.Equal(45))
+                for var i = 0; i < 10; i++ {
+                    game.decrementScore(playerNumber: 1)
+                }
+                expect(game.honorPool).to(.Equal(0))
+                expect(game.getScore(playerNumber: 1)).to(.Equal(15))
+                expect(game.getScore(playerNumber: 2)).to(.Equal(45))
+                game.decrementScore(playerNumber: 1)
+                expect(game.honorPool).to(.Equal(1))
+                expect(game.getScore(playerNumber: 1)).to(.Equal(14))
+                expect(game.getScore(playerNumber: 2)).to(.Equal(45))
+            }
         }
     }
 }
