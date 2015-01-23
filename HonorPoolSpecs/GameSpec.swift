@@ -1,6 +1,7 @@
-import Swiftest
+import SwiftestXC
+import HonorPool
 
-class GameSpec : SwiftestSuite {
+class GameSpec : SwiftestSpec {
     let spec = describe("GameSpec") {
         
         it("starts with 60 honor pool") {
@@ -91,5 +92,40 @@ class GameSpec : SwiftestSuite {
             expect(game.honorPool).to(.Equal(1))
         }
         
+        it("gives honor to a player") {
+            let game: Game = Game()
+            
+            game.setHonor(playerNumber: 1, honor: 15)
+            
+            expect(game.getHonor(playerNumber: 1)).to(.Equal(15))
+        }
+        
+        describe("#getHonor") {
+            it("returns the total of a player’s honor and points") {
+                let game: Game = Game()
+                
+                game.setHonor(playerNumber: 1, honor: 15)
+                game.incrementScore(playerNumber: 1)
+                
+                expect(game.getHonor(playerNumber: 1)).to(.Equal(16))
+            }
+        }
+        
+        describe("setPlayerName") {
+            it("sets the player's name") {
+                let game: Game = Game()
+                
+                game.setPlayerName(playerNumber: 1, name: "Taka")
+                
+                expect(game.getPlayer(1).getName()).to(.Equal("Taka"))
+            }
+        }
+        
+        it("names players ”Player #“ by default") {
+            let game: Game = Game()
+            
+            expect(game.getPlayerName(playerNumber: 1)).to(.Equal("Player 1"))
+            expect(game.getPlayerName(playerNumber: 2)).to(.Equal("Player 2"))
+        }
     }
 }

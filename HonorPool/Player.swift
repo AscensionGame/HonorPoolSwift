@@ -1,23 +1,43 @@
-class Player {
+public class Player {
     private var score: Int
+    private var honor: Int
+    private var name: String
     
-    init() {
+    public init(name: String = "") {
         self.score = 0
+        self.honor = 0
+        self.name = name
     }
     
-    func getScore() -> Int {
+    public func getScore() -> Int {
         return self.score
     }
     
-    func setScore(new_score: Int) {
-        score = new_score
+    public func getHonor() -> Int {
+        return self.honor
     }
     
-    func incrementScore() {
+    public func setScore(newScore: Int) {
+        score = newScore
+    }
+    
+    public func setHonor(newHonor: Int) {
+        honor = newHonor
+    }
+    
+    public func incrementScore() {
         score++
     }
     
-    func decrementScore() {
+    public func decrementScore() {
         score--
+    }
+    
+    public func setName(newName: String) {
+        name = newName
+    }
+    
+    public func getName() -> String {
+        return name
     }
 }

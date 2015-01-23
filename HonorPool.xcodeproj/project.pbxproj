@@ -8,49 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		B52F9CAB19F1B31E0032E981 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAA19F1B31E0032E981 /* Player.swift */; };
-		B52F9CAC19F1B31E0032E981 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAA19F1B31E0032E981 /* Player.swift */; };
-		B52F9CAE19F1B3420032E981 /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */; };
+		B55D9A281A72DA2900B1CC52 /* SwiftestCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D9A271A72DA2900B1CC52 /* SwiftestCore.framework */; };
+		B55D9A291A72DA4B00B1CC52 /* GameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7419E344CA00487185 /* GameSpec.swift */; };
+		B55D9A2A1A72DAB400B1CC52 /* IntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7619E344F100487185 /* IntegrationSpec.swift */; };
 		B5624D3319E343CC00487185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3219E343CC00487185 /* AppDelegate.swift */; };
 		B5624D3519E343CC00487185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D3419E343CC00487185 /* ViewController.swift */; };
 		B5624D3819E343CC00487185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3619E343CC00487185 /* Main.storyboard */; };
 		B5624D3A19E343CC00487185 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3919E343CC00487185 /* Images.xcassets */; };
 		B5624D3D19E343CC00487185 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5624D3B19E343CC00487185 /* LaunchScreen.xib */; };
-		B5624D6519E3442400487185 /* SwiftestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D6419E3442400487185 /* SwiftestController.swift */; };
-		B5624D6719E3442400487185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D6619E3442400487185 /* AppDelegate.swift */; };
-		B5624D6A19E3442400487185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5624D6819E3442400487185 /* Main.storyboard */; };
 		B5624D7219E3447B00487185 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7119E3447B00487185 /* Game.swift */; };
-		B5624D7319E3447B00487185 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7119E3447B00487185 /* Game.swift */; };
-		B5624D7519E344CA00487185 /* GameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7419E344CA00487185 /* GameSpec.swift */; };
-		B5624D7719E344F100487185 /* IntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5624D7619E344F100487185 /* IntegrationSpec.swift */; };
+		B57348891A72D6FF00B6F3F2 /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */; };
+		B573488B1A72D7DC00B6F3F2 /* SwiftestXC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A4138E1A6DE74F008A662E /* SwiftestXC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B52F9CA819F1ADA90032E981 /* PBXContainerItemProxy */ = {
+		B57348841A72D6D200B6F3F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+			containerPortal = B5624D2519E343CB00487185 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 953F36F719758D1700718CF1;
-			remoteInfo = Swiftest;
+			remoteGlobalIDString = B5624D2C19E343CB00487185;
+			remoteInfo = HonorPool;
 		};
-		B5624D5719E3441000487185 /* PBXContainerItemProxy */ = {
+		B5A4138D1A6DE74F008A662E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+			containerPortal = B5A413871A6DE74F008A662E /* SwiftestXC.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 953F36F819758D1700718CF1;
-			remoteInfo = Swiftest;
+			remoteGlobalIDString = 95D0FC5B19FFE8E900B15D6E;
+			remoteInfo = SwiftestXC;
 		};
-		B5624D5919E3441000487185 /* PBXContainerItemProxy */ = {
+		B5A4138F1A6DE74F008A662E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+			containerPortal = B5A413871A6DE74F008A662E /* SwiftestXC.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 956FD60619820D5700699AD8;
-			remoteInfo = SwiftestSpecs;
+			remoteGlobalIDString = 95D0FC6619FFE8E900B15D6E;
+			remoteInfo = SwiftestXCTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B52F9CAA19F1B31E0032E981 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpec.swift; sourceTree = "<group>"; };
+		B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerSpec.swift; path = ../HonorPoolSpecs/PlayerSpec.swift; sourceTree = "<group>"; };
+		B55D9A271A72DA2900B1CC52 /* SwiftestCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftestCore.framework; path = "../../../../Developer/Xcode/DerivedData/HonorPool-dettvficdiywanfnlabscxmhhrem/Build/Products/Debug/SwiftestCore.framework"; sourceTree = "<group>"; };
 		B5624D2D19E343CC00487185 /* HonorPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5624D3119E343CC00487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5624D3219E343CC00487185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,15 +56,17 @@
 		B5624D3719E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5624D3919E343CC00487185 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5624D3C19E343CC00487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B5624D5219E3441000487185 /* Swiftest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swiftest.xcodeproj; path = Swiftest/src/Swiftest/Swiftest.xcodeproj; sourceTree = "<group>"; };
-		B5624D5F19E3442400487185 /* HonorPoolSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorPoolSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5624D6219E3442400487185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5624D6419E3442400487185 /* SwiftestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftestController.swift; path = Support/SwiftestController.swift; sourceTree = "<group>"; };
 		B5624D6619E3442400487185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Support/AppDelegate.swift; sourceTree = "<group>"; };
 		B5624D6919E3442400487185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5624D7119E3447B00487185 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		B5624D7419E344CA00487185 /* GameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSpec.swift; sourceTree = "<group>"; };
-		B5624D7619E344F100487185 /* IntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationSpec.swift; sourceTree = "<group>"; };
+		B5624D7419E344CA00487185 /* GameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSpec.swift; path = ../HonorPoolSpecs/GameSpec.swift; sourceTree = "<group>"; };
+		B5624D7619E344F100487185 /* IntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegrationSpec.swift; path = ../HonorPoolSpecs/IntegrationSpec.swift; sourceTree = "<group>"; };
+		B573487E1A72D6D200B6F3F2 /* HonorPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonorPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57348811A72D6D200B6F3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57348821A72D6D200B6F3F2 /* HonorPoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonorPoolTests.swift; sourceTree = "<group>"; };
+		B5A413871A6DE74F008A662E /* SwiftestXC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftestXC.xcodeproj; path = Swiftest/src/SwiftestXC/SwiftestXC/SwiftestXC.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +77,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5624D5C19E3442400487185 /* Frameworks */ = {
+		B573487B1A72D6D200B6F3F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55D9A281A72DA2900B1CC52 /* SwiftestCore.framework in Frameworks */,
+				B573488B1A72D7DC00B6F3F2 /* SwiftestXC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +92,11 @@
 		B5624D2419E343CB00487185 = {
 			isa = PBXGroup;
 			children = (
-				B5624D5219E3441000487185 /* Swiftest.xcodeproj */,
+				B55D9A271A72DA2900B1CC52 /* SwiftestCore.framework */,
+				B5A413871A6DE74F008A662E /* SwiftestXC.xcodeproj */,
 				B5624D2F19E343CC00487185 /* HonorPool */,
 				B5624D6019E3442400487185 /* HonorPoolSpecs */,
+				B573487F1A72D6D200B6F3F2 /* HonorPoolTests */,
 				B5624D2E19E343CC00487185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B5624D2D19E343CC00487185 /* HonorPool.app */,
-				B5624D5F19E3442400487185 /* HonorPoolSpecs.app */,
+				B573487E1A72D6D200B6F3F2 /* HonorPoolTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,23 +133,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5624D5319E3441000487185 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5624D5819E3441000487185 /* Swiftest.framework */,
-				B5624D5A19E3441000487185 /* SwiftestSpecs */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B5624D6019E3442400487185 /* HonorPoolSpecs */ = {
 			isa = PBXGroup;
 			children = (
 				B5624D6319E3442400487185 /* Support */,
 				B5624D6119E3442400487185 /* Supporting Files */,
-				B5624D7419E344CA00487185 /* GameSpec.swift */,
-				B5624D7619E344F100487185 /* IntegrationSpec.swift */,
-				B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */,
 			);
 			path = HonorPoolSpecs;
 			sourceTree = "<group>";
@@ -168,6 +160,35 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
+		B573487F1A72D6D200B6F3F2 /* HonorPoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5624D7419E344CA00487185 /* GameSpec.swift */,
+				B5624D7619E344F100487185 /* IntegrationSpec.swift */,
+				B52F9CAD19F1B3420032E981 /* PlayerSpec.swift */,
+				B57348821A72D6D200B6F3F2 /* HonorPoolTests.swift */,
+				B57348801A72D6D200B6F3F2 /* Supporting Files */,
+			);
+			path = HonorPoolTests;
+			sourceTree = "<group>";
+		};
+		B57348801A72D6D200B6F3F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57348811A72D6D200B6F3F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A413881A6DE74F008A662E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4138E1A6DE74F008A662E /* SwiftestXC.framework */,
+				B5A413901A6DE74F008A662E /* SwiftestXCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,23 +209,23 @@
 			productReference = B5624D2D19E343CC00487185 /* HonorPool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5624D5E19E3442400487185 /* HonorPoolSpecs */ = {
+		B573487D1A72D6D200B6F3F2 /* HonorPoolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5624D6D19E3442400487185 /* Build configuration list for PBXNativeTarget "HonorPoolSpecs" */;
+			buildConfigurationList = B57348861A72D6D200B6F3F2 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */;
 			buildPhases = (
-				B5624D5B19E3442400487185 /* Sources */,
-				B5624D5C19E3442400487185 /* Frameworks */,
-				B5624D5D19E3442400487185 /* Resources */,
+				B573487A1A72D6D200B6F3F2 /* Sources */,
+				B573487B1A72D6D200B6F3F2 /* Frameworks */,
+				B573487C1A72D6D200B6F3F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B52F9CA919F1ADA90032E981 /* PBXTargetDependency */,
+				B57348851A72D6D200B6F3F2 /* PBXTargetDependency */,
 			);
-			name = HonorPoolSpecs;
-			productName = HonorPoolSpecs;
-			productReference = B5624D5F19E3442400487185 /* HonorPoolSpecs.app */;
-			productType = "com.apple.product-type.application";
+			name = HonorPoolTests;
+			productName = HonorPoolTests;
+			productReference = B573487E1A72D6D200B6F3F2 /* HonorPoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,8 +239,9 @@
 					B5624D2C19E343CB00487185 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					B5624D5E19E3442400487185 = {
-						CreatedOnToolsVersion = 6.0.1;
+					B573487D1A72D6D200B6F3F2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B5624D2C19E343CB00487185;
 					};
 				};
 			};
@@ -236,31 +258,31 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B5624D5319E3441000487185 /* Products */;
-					ProjectRef = B5624D5219E3441000487185 /* Swiftest.xcodeproj */;
+					ProductGroup = B5A413881A6DE74F008A662E /* Products */;
+					ProjectRef = B5A413871A6DE74F008A662E /* SwiftestXC.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
 				B5624D2C19E343CB00487185 /* HonorPool */,
-				B5624D5E19E3442400487185 /* HonorPoolSpecs */,
+				B573487D1A72D6D200B6F3F2 /* HonorPoolTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B5624D5819E3441000487185 /* Swiftest.framework */ = {
+		B5A4138E1A6DE74F008A662E /* SwiftestXC.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Swiftest.framework;
-			remoteRef = B5624D5719E3441000487185 /* PBXContainerItemProxy */;
+			path = SwiftestXC.framework;
+			remoteRef = B5A4138D1A6DE74F008A662E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B5624D5A19E3441000487185 /* SwiftestSpecs */ = {
+		B5A413901A6DE74F008A662E /* SwiftestXCTests.xctest */ = {
 			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = SwiftestSpecs;
-			remoteRef = B5624D5919E3441000487185 /* PBXContainerItemProxy */;
+			fileType = wrapper.cfbundle;
+			path = SwiftestXCTests.xctest;
+			remoteRef = B5A4138F1A6DE74F008A662E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -276,11 +298,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5624D5D19E3442400487185 /* Resources */ = {
+		B573487C1A72D6D200B6F3F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5624D6A19E3442400487185 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,27 +319,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5624D5B19E3442400487185 /* Sources */ = {
+		B573487A1A72D6D200B6F3F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5624D6719E3442400487185 /* AppDelegate.swift in Sources */,
-				B5624D7319E3447B00487185 /* Game.swift in Sources */,
-				B5624D7719E344F100487185 /* IntegrationSpec.swift in Sources */,
-				B5624D7519E344CA00487185 /* GameSpec.swift in Sources */,
-				B52F9CAC19F1B31E0032E981 /* Player.swift in Sources */,
-				B5624D6519E3442400487185 /* SwiftestController.swift in Sources */,
-				B52F9CAE19F1B3420032E981 /* PlayerSpec.swift in Sources */,
+				B55D9A2A1A72DAB400B1CC52 /* IntegrationSpec.swift in Sources */,
+				B55D9A291A72DA4B00B1CC52 /* GameSpec.swift in Sources */,
+				B57348891A72D6FF00B6F3F2 /* PlayerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B52F9CA919F1ADA90032E981 /* PBXTargetDependency */ = {
+		B57348851A72D6D200B6F3F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Swiftest;
-			targetProxy = B52F9CA819F1ADA90032E981 /* PBXContainerItemProxy */;
+			target = B5624D2C19E343CB00487185 /* HonorPool */;
+			targetProxy = B57348841A72D6D200B6F3F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -449,29 +466,41 @@
 			};
 			name = Release;
 		};
-		B5624D6E19E3442400487185 /* Debug */ = {
+		B57348871A72D6D200B6F3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HonorPool-dettvficdiywanfnlabscxmhhrem/Build/Products/Debug",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HonorPoolSpecs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = HonorPoolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
 			};
 			name = Debug;
 		};
-		B5624D6F19E3442400487185 /* Release */ = {
+		B57348881A72D6D200B6F3F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = HonorPoolSpecs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/HonorPool-dettvficdiywanfnlabscxmhhrem/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = HonorPoolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonorPool.app/HonorPool";
 			};
 			name = Release;
 		};
@@ -496,11 +525,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5624D6D19E3442400487185 /* Build configuration list for PBXNativeTarget "HonorPoolSpecs" */ = {
+		B57348861A72D6D200B6F3F2 /* Build configuration list for PBXNativeTarget "HonorPoolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5624D6E19E3442400487185 /* Debug */,
-				B5624D6F19E3442400487185 /* Release */,
+				B57348871A72D6D200B6F3F2 /* Debug */,
+				B57348881A72D6D200B6F3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

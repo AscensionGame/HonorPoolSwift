@@ -1,6 +1,7 @@
-import Swiftest
+import SwiftestXC
+import HonorPool
 
-class PlayerSpec: SwiftestSuite {
+class PlayerSpec: SwiftestSpec {
     let spec = describe("Player") {
         it("defaults to score 0") {
             expect(Player().getScore()).to(.Equal(0))
@@ -30,6 +31,28 @@ class PlayerSpec: SwiftestSuite {
             
             player.decrementScore()
             expect(player.getScore()).to(.Equal(0))
+        }
+        
+        it("sets and gets the honor of the player") {
+            let player = Player()
+            
+            player.setHonor(5)
+            
+            expect(player.getHonor()).to(.Equal(5))
+        }
+        
+        it("sets the player's name") {
+            let player = Player(name: "Taka")
+            
+            expect(player.getName()).to(.Equal("Taka"))
+        }
+        
+        it("renames the player") {
+            let player = Player(name: "Taka")
+            
+            player.setName("Ben")
+            
+            expect(player.getName()).to(.Equal("Ben"))
         }
     }
 }
